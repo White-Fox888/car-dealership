@@ -1,0 +1,176 @@
+.specials{
+    padding: 75px 0;
+    &-background{
+        padding: 150px 0;
+        background-color: #181B1D;
+    }
+    &-block{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        &-all{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+            article{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 20px;
+            }
+            &-img img{
+                object-fit: cover;
+                height: 240px;
+                width: auto;
+            }
+            &-text{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                p{
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                    margin: 0; 
+                }
+                button{
+                    background-color: unset;
+                    border: 2px solid white;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 14px 20px;
+                    gap: 14px;
+                    p{
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 135%;
+                        color: #FFFFFF;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    &-header h2{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin: 0;
+    }
+}
+.special{
+    padding: 75px 0;
+    &-block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        box-shadow: 7px 10px 37px 0 #0B457F12;
+        &-img img{
+                height: 348px;
+                width: auto;
+                object-fit: cover;
+            }
+        &-all{
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            gap: 20px;
+            &-header{
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 120%;
+                color: #000000;
+                margin: 0;
+            }
+            &-text{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 20px;
+                p{
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    margin: 0;  
+                    color: #000000; 
+                }
+                button{
+                    background-color: #181B1D;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 14px 20px;
+                    gap: 14px;
+                    color:#FFFFFF;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 135%;
+                    margin: 0;
+                }
+            }
+        }   
+    }
+    
+}
+
+.services{
+    padding: 75px 0;
+    &-block{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        &-all{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+            article{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 20px;
+            }
+            &-img img{
+                object-fit: cover;
+                height: 240px;
+                width: auto;
+            }
+            &-text{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 10px;
+                p{
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 140%;
+                    color: #000000;
+                    margin: 0; 
+                }
+                button{
+                    background-color: unset;
+                    border: 2px solid #000000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 14px 20px;
+                    gap: 14px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 135%;
+                    color: #000000;
+                    margin: 0;
+                }
+            }
+        }
+    } 
+    &-header h2{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 120%;
+        color: #000000;
+        margin: 0;
+    }
+}

@@ -202,15 +202,15 @@
   gap: 40px;
   align-items: center;
 }
+.estimation-block-all-form form {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
 .estimation-block-header h2 {
   color: #FFFFFF;
   font-weight: 400;
   font-size: 45px;
   line-height: 110%;
   margin: 0;
-}
-.estimation-block-all-form form {
-  gap: 20px;
-  display: flex;
-  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

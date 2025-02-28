@@ -179,14 +179,24 @@
 .estimation{
     padding: 75px 0;
     &-background{
-        padding: 75px 0;
-        img{
-            z-index: -1;
+        padding: 75px 267px;
+        .gradient{
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
-            height: 620px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+        }
+        img{
+            z-index: -2;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
             width: 100%;
             object-fit: cover;
         }
@@ -195,22 +205,47 @@
         display: flex;
         flex-direction: column;
         gap: 40px;
-        align-items: center;     
+        align-items: center; 
         &-all{
             &-form{
                 form{
                 gap: 20px;
                 display: flex;
                 flex-direction: column;
+                width: 380px;
                     input{
-                    
+                    display: flex;
+                    padding: 5px 12px;
+                    gap: 12px;
+                    height: 50px;
+                    }
+                    input::placeholder{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #A4A4A4;
                     }
                     button{
-                    
+                    background-color: #181B1D;
+                    color: #FFFFFF;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 135%;
+                    padding: 14px 20px;
+                    border: none;
                     }
-                }
-                p{
-
+                    p{
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        color: #FFFFFF;
+                    }
+                    }
                 }
             }
         }
@@ -218,7 +253,8 @@
             color:#FFFFFF;
             font-weight: 400;
             font-size: 45px;
-            line-height: 110%; 
+            line-height: 110%;
+            text-align: center;
             margin: 0;         
         }
     }
